@@ -1,4 +1,4 @@
 FROM golang:latest 
-ADD ./GoLangCICD.exe /
-CMD ["/GoLangCICD.exe"]
+ADD ./BookingApp.exe /
+CMD ["/BookingApp.exe"]
 EXPOSE 8080

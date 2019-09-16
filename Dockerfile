@@ -1,4 +1,4 @@
 FROM golang:latest 
-ADD ./BookingApp.exe /
-CMD ["/BookingApp.exe"]
+ADD ./BookingApp /
+CMD ["/BookingApp"]
 EXPOSE 8080
